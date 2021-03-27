@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyTasksPageLinkTest"/>
+          <include name="verifyUserNameLabelTest"/>
+          <include name="verifyContactsPagelinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyDealsPageLinkTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyCompaniesPagelinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
