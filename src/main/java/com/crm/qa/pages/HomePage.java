@@ -42,7 +42,7 @@ public class HomePage extends TestBase{
 		return new CompaniesPage();
 	}
 	public ContactsPage clickOnContactsLink() {
-		//contactslink.click();
+		contactslink.click();
 		return new ContactsPage();
 	}
 	
