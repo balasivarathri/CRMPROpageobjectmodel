@@ -5,7 +5,7 @@
     <classes>
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
-          <include name="selectContactsTest"/>
+          <include name="verifyContactsPageLableTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
